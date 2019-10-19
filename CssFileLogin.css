@@ -10,7 +10,7 @@
    
    @keyframes animate 
    {
-      0%,10%
+      0%,100%
       {
       	background-image: url(p1.jpg);
       }
@@ -57,12 +57,12 @@
       {
       	background-image: url(boy1.jpg);
       }
-    }
+     }
 
-     @media only screen and (max-width: 600px) 
+       @media only screen and (max-width: 600px) 
      {
       body 
        {
-         background-color: lightblue;
+         background-image: "p2.jpg";
       }
     }

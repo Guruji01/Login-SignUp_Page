@@ -58,3 +58,23 @@
       	background-image: url(boy1.jpg);
       }
      }
+
+
+       @media only screen and (max-width: 600px) 
+       {
+        body 
+         {
+          background-image: url("bg4.jpg");
+         }
+
+     .div1
+      {
+         display: none;
+      }
+
+      .div2
+      {
+         display: none;
+      }
+
+   }

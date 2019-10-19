@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Front Page
+	</title>
+	<style type="text/css">
+		
+	.div1
+   	{
+   		left: 0;
+   		top: 0;
+   		width: 100%;
+   		height: 100vh;
+   		animation: animate 26s ease-in-out infinite;
+   		background-size: cover;
+   	}
+   
+   @keyframes animate 
+   {
+      0%,100%
+      {
+      	background-image: url(p1.jpg);
+      }
+      25%
+      {
+      	background-image: url(p2.jpg);
+      }
+      50%
+      {
+      	background-image: url(p1.jpg);
+      }
+      75%
+      {
+      	background-image: url(p2.jpg);
+      }
+
+   }
+
+   .div2
+   	{
+   		left: 0;
+   		top: 0;
+   		width: 100%;
+   		height: 100vh;
+   		animation: animatee 26s ease-in-out infinite;
+   		background-size: cover;
+   	}
+   
+   @keyframes animatee
+   {
+      0%,100%
+      {
+      	background-image: url(girl.jpg);
+      }
+      25%
+      {
+      	background-image: url(boy1.jpg);
+      }
+      50%
+      {
+      	background-image: url(girl.jpg);
+      }
+      75%
+      {
+      	background-image: url(boy1.jpg);
+      }
+     }
+    
+
+	</style>
+</head>
+<body background="bg4.jpg"  style="background-size: cover">
+
+
+	<div class= "div1" style="height: 600px; width: 26%;  margin-left: 18%; margin-top: 3.5%; background: url(girl2.jpg); background-size: cover; z-index: 40">
+
+		
+	</div>
+
+	<div class= "div2" style="height: 600px; width: 26%; margin-left: 54%; margin-top: -600px;  background-color: white; background: url(boy1.jpg); background-size: cover; z-index: 40" >
+		
+
+	</div>
+
+	<script type="text/javascript">
+		function effect()
+		{
+          var x = document.getElementById("x1");
+      x.style.height="245px";
+      x.style.width="28%";
+      x.style.marginLeft = "34%";
+      
+		}
+		function effectback()
+		{
+          var x = document.getElementById("x1");
+      x.style.height="234px";
+      x.style.width="24%";
+      x.style.marginLeft = "37%";
+		} 
+
+		function effect2()
+		{
+          var x = document.getElementById("a1");
+          x.style.marginLeft = "25%"; 
+          x.style.background = "#C0C0C0";
+          
+		} 
+		function effectback2()
+		{
+          var x = document.getElementById("a1");
+          x.style.marginLeft = "1%";
+          x.style.background = "white";
+
+		} 
+
+		function effect22()
+		{
+          var x = document.getElementById("a2");
+          x.style.marginLeft = "25%";
+          x.style.background = "#C0C0C0";
+		} 
+		function effectback22()
+		{
+          var x = document.getElementById("a2");
+          x.style.marginLeft = "1%";
+          x.style.background = "white";
+		}
+		function effect23()
+		{
+          var x = document.getElementById("b1");
+          var x1 = document.getElementById("b12");
+          x1.style.marginLeft="14%";
+          x.style.height="5vh";
+          x.style.width="22%";
+          x.style.marginLeft = "20%";
+		} 
+		function effectback23()
+		{
+          var x = document.getElementById("b1");
+          var x1 = document.getElementById("b12");
+          x1.style.marginLeft="4%";
+          x.style.height="4vh";
+          x.style.width="22%";
+          x.style.marginLeft = "10%";
+		}  
+
+         function effect24()
+		{
+          var x = document.getElementById("b12");
+          x.style.height="5vh";
+          x.style.width="22%";
+          x.style.marginLeft = "2%";
+		} 
+		function effectback24()
+		{
+          var x = document.getElementById("b12");
+          x.style.height="4vh";
+          x.style.width="22%";
+          x.style.marginLeft = "2%";
+		} 
+	</script>
+
+	<div id = "x1" style="height: 234px; width: 24%; border: solid; margin-left: 37%; margin-top: -425px; color: black; background-color: transparent; z-index: -30; transition: width 1s, height 1s, margin-left 1s" onmouseover="effect()" onmouseout="effectback()">
+		<h3 style="font-size: 40px; margin-top: -1.8%;text-align: center; font-family: Viner Hand ITC">Dhun<br/></h3>
+		<input id ="a1" type="text" style="border-top: none; border-radius: none; border-left: solid; border-bottom: solid; margin-left: 1%; margin-top: -8%; transition: margin 1s; height: 3vh" placeholder="Username" onmouseover="effect2()" onmouseout="effectback2()">
+          <br/>
+          <br/>
+		<input id ="a2" type="password" style="border-top: none; border-radius: none; border-left: solid; border-bottom: solid; transition: margin 1s; margin-left: 1%; height: 3vh" placeholder="Password" onmouseover="effect22()" onmouseout="effectback22()">
+		<br/> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp    
+        <a href="C:/Users/Naveen/Desktop/Projects/dhun/Dhun.html" style="color: black; text-decoration: none;">forgot password? </a>
+		<br/><br/>&nbsp &nbsp &nbsp &nbsp
+		<a href="C:/Users/Naveen/Desktop/Projects/dhun/Dhun.html" ><input id="b1" type="button" value="Login" style="margin-left: 10%; transition: width 0.5s, height 0.5s, margin-left 0.5s; background-color: #0033FF; border: solid;
+		border-color: black; width: 22%; height: 4vh" onmouseover="effect23()" onmouseout="effectback23()" ></a>
+		&nbsp &nbsp &nbsp &nbsp &nbsp 
+
+		<a href="C:/Users/Naveen/Desktop/Projects/dhun/Dhun.html" ><input id="b12" type="button" value="SignUp" style="margin-left: 2%; width: 20%; transition: width 0.5s, height 0.5s, margin-left 0.5s; background-color: #FD1C03; border: solid; height: 4vh;
+		border-color: black" onmouseover="effect24()" onmouseout="effectback24()" ></a>
+
+	</div>
+
+
+
+</body>
+</html>
